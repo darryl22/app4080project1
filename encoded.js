@@ -1,5 +1,4 @@
 let encodedtext;
-let decodedtext;
 
 function encode(text) {
     let alphabet = "abcdefghijklmnopqrstuvwxyz"
@@ -16,8 +15,4 @@ function encode(text) {
     return temp;
 }
 
-function decode() {
-
-}
-
-console.log(encode("aac"))
+console.log(encode("abc"))
